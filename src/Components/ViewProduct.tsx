@@ -18,6 +18,7 @@ export default function ViewProducts() {
 
   return data.products.map(({ id, name, price }) => {
     console.log(id, name, price);
+    console.log("hi pdp");
     return (
       <>
         <p>id: ${id}</p>
